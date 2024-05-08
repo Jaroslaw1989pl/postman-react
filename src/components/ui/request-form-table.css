@@ -1,0 +1,70 @@
+.request-form-table {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #bdbdbd;
+  border-collapse: collapse;
+  background-color: #8faadd;
+}
+
+  tbody tr:last-of-type {
+    color: #727171;
+  }
+  
+    th, td {
+      min-width: 100px;
+      padding: 5px 10px;
+      border: 2px solid #bdbdbd;
+      border-collapse: collapse;
+    }
+    th:nth-child(1), td:nth-child(1) {
+      padding: 5px 5px;
+    }
+    th:nth-child(2), td:nth-child(2), th:nth-child(3), td:nth-child(3) {
+      width: 175px;
+    }
+    th:nth-child(4), td:nth-child(4) {
+      width: 200px;
+    }
+    th:nth-child(5) {
+      width: 115px;
+    }
+
+      tr.disabled input[type="text"] {
+        text-decoration: line-through;
+        pointer-events: none;
+      }
+
+      .row-arrow {
+        width: 20px;
+        padding: 0;
+        color: transparent;
+      }
+      .row-arrow.up {
+        text-shadow: 0 0 0 green;
+      }
+      .row-arrow.down {
+        text-shadow: 0 0 0 red;
+      }
+
+.key-value-bulk-editor {
+  width: 100%;
+  background-color: #8faadd;
+}
+
+  .bulk-editor-header {
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 5px 5px;
+    text-align: right;
+  }
+
+    .bulk-edit.query-params {
+      
+    }
+
+  .bulk-editor-textarea {
+    width: 100%;
+    max-height: 300px;
+    margin: auto;
+    resize: vertical;
+  }

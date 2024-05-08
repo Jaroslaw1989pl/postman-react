@@ -1,0 +1,63 @@
+#page-content {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffe4c4;
+}
+
+  #page-main-element {
+    width: 100%;
+    background-color: #ffc4c9;
+  }
+
+    #request-form-container {
+      width: 800px;
+      margin: auto;
+      background-color: #c9ffc4;
+    }
+
+/* potencjalnie osobny komponent*/
+/* form {
+        
+}
+
+  #request-form-bar {
+    display: flex;
+  }
+
+    #request-method-dropdown {
+      flex-grow: 1;
+    }
+
+    #request-url-input {
+      flex-grow: 6;
+    }
+
+    #request-send-btn {
+      flex-grow: 1;
+    }
+
+  #request-form-tables {
+
+  }
+
+    #tabs-list {
+      display: flex;
+      padding-left: 0;
+      list-style-type: none;
+      background-color: #8b008b;
+    }
+
+      .tab-list-item {
+
+      }
+
+        .tab-btn {
+
+        }
+
+    #table-container {
+      background-color: #e7949b;
+    } */
+
+      
+/**********************************/

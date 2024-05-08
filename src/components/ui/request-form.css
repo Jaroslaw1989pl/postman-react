@@ -1,0 +1,54 @@
+form {
+        
+}
+
+  #request-form-bar {
+    display: flex;
+  }
+
+    #request-method-dropdown {
+      flex-grow: 1;
+    }
+
+    #request-url-input {
+      flex-grow: 6;
+    }
+
+    #request-send-btn {
+      flex-grow: 1;
+    }
+
+  #request-form-tables-navigation {
+
+  }
+
+    #tabs-list {
+      display: flex;
+      padding-left: 0;
+      list-style-type: none;
+      background-color: #8b008b;
+    }
+
+      .tab-list-item {
+
+      }
+
+        .tab-btn {
+
+        }
+        
+  #request-form-tables {
+
+  }
+
+    .request-form-table {
+
+    }
+  
+      #query-params-table-container {
+        background-color: #e7949b;
+      }
+
+      #path-variables-table-container {
+        background-color: #e7949b;
+      }
